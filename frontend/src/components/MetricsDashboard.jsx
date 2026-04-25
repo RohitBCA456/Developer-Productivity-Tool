@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import MetricsCard from "./metrticsCard";
+import MetricsCard from "./MetricsCard";
 import { Lightbulb, ArrowRight, UserPlus } from "lucide-react";
 
 const MetricsDashboard = () => {
