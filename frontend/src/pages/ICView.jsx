@@ -1,6 +1,6 @@
 import React from "react";
 import DeveloperSelector from "../components/DeveloperSelector";
-import MetricsDashboard from "../components/metricsDashboard";
+import MetricsDashboard from "../components/MetricsDashboard";
 
 function ICView() {
   return (
