@@ -1,4 +1,4 @@
-import { developers, getMetrics } from "../../../data/mockData.js";
+import { developers, getMetrics } from "../data/mockData.js";
 import { generateInsights } from "../services/insight.service.js";
 
 export const getDevelopers = async (req, res) => {
