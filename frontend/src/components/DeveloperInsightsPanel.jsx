@@ -9,7 +9,7 @@ const DeveloperInsightsPanel = () => {
   useEffect(() => {
     const fetchAllData = async () => {
       try {
-        const response = await axios.get('http://localhost:5000/api/v1/developer/get-developers');
+        const response = await axios.get('https://developer-productivity-tool-backend.onrender.com/api/v1/developer/get-developers');
         setDevelopers(response.data.data || response.data);
         setLoading(false);
       } catch (err) {

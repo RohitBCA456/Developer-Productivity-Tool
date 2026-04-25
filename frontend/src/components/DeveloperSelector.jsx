@@ -14,7 +14,7 @@ const DeveloperSelector = ({ onSelect }) => {
     const fetchDevelopers = async () => {
       try {
         const response = await axios.get(
-          "http://localhost:5000/api/v1/developer/get-developers",
+          "https://developer-productivity-tool-backend.onrender.com/api/v1/developer/get-developers",
         );
         const data = response.data.data || response.data;
         setDevelopers(data);
@@ -43,7 +43,7 @@ const DeveloperSelector = ({ onSelect }) => {
     try {
       const dev_id = dev.id;
       const response = await axios.get(
-        `http://localhost:5000/api/v1/developer/get-dev-metrics/${dev_id}`,
+        `https://developer-productivity-tool-backend.onrender.com/api/v1/developer/get-dev-metrics/${dev_id}`,
         {},
       );
 
